@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(https://media.istockphoto.com/vectors/bookshelf-with-books-old-books-on-the-shelves-library-vector-id1279696711?k=20&m=1279696711&s=612x612&w=0&h=saNHzSC9IsxJ5atAWXP9fHGlH1rrE7xgzGnSgUghpiY=);
+    background-size: cover;
+}
+.box{
+    width: 300px;
+    padding: 30px;
+    margin-top: 30%;
+    margin-left: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+}
+.box h1{
+    color: white;
+    font-weight: 700;
+}
+.box input[type="text"], .box input[type="password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 5px 10px;
+    border: 3px solid #10499d;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+.box input[type="text"], .box input[type="password"]:focus{
+    width: 270px;
+    border-color: #bf9d30ec;
+}
+.box input[type="submit"], .box input[type="button"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #080233;
+    padding: 11px 9px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+
+}
+.box input[type="submit"]:hover{
+    background: #025345ec;
+}
+.box input[type="button"]:hover{
+    background: #025345ec;
+}
+}
